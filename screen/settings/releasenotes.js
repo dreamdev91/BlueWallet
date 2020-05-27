@@ -5,7 +5,7 @@ import { BlueLoading, SafeBlueArea, BlueCard, BlueText, BlueNavigationStyle } fr
 
 const ReleaseNotes = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const notes = require('../../release-notes');
+  const notes = 'Release Notes'; //require('../../release-notes');
 
   useEffect(() => {
     setIsLoading(false);
